@@ -1,6 +1,6 @@
 describe('Exibição Inicial', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000'); // Substitua pelo seu URL real
+    cy.visit('http://localhost:3000');
   });
 
   it('Deve exibir "0" no display', () => {
